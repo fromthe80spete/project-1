@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+.dogecoin-main {
+  background-size: contain;
+width: 550px;
+height: 200px;
+align-content: center;
+margin-left: 35%;
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -21,21 +29,44 @@ body {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
+  align-content: center;
   justify-content: center;
   height: 600px;
   width: 600px;
+
+  
 }
 
 .grid div {
   border: 1px solid lightgrey;
   flex-grow: 1;
   height: 10%;
-  width: 10%;
+  width: 15%;
+  padding-top: 0%;
+  padding-bottom: 0%;
 }
 
-.grid div.cat {
-  background-image: url('../assets/cat.png');
+.player1 {
+  background-image: url('connectDoge.png');
   background-repeat: no-repeat;
   background-size: contain;
-  cursor: pointer;
+  cursor: 
+}
+
+.player2 {
+  background-image: url('connectBit.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: grabbing;
+}
+
+.elon {
+  width: 10%;
+  height: 10%;
+  margin: auto;
+}
+
+.jeff {
+  width: 10%;
+  height: 10%;
 }
